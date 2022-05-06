@@ -1,4 +1,4 @@
-package main
+package sulution
 
 import "testing"
 

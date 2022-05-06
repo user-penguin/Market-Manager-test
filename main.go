@@ -1,13 +1,9 @@
-/*Package main
+/*Package solution
 Задана строка S из малых латинских букв,
 требуется узнать длину наибольшей подстроки
 состоящей не более чем из двух различных символов.
 */
-package main
-
-func main() {
-
-}
+package sulution
 
 func Run(src string) int {
 	var max int
