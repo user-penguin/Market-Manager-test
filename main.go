@@ -44,7 +44,7 @@ func Run(src string) int {
 		}
 	}
 	// если прошли всю строку, а она состояла не более чем из двух символов
-	if max == 0 {
+	if right-left+1 > max {
 		return right - left + 1
 	}
 	return max
